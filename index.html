@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Handling</title>
+  </head>
+  <body>
+    <script>
+      function main() {
+        // let a = prompt("Enter First Number");
+        // let b = prompt("Enter Second Number");
+
+        // // Convert the inputs to numbers
+        // a = Number(a);
+        // b = Number(b);
+
+        // // Check if the inputs are NaN
+        // if (isNaN(a) || isNaN(b)) {
+        //   throw new SyntaxError("This is an error");
+        // }
+
+        let a = 2;
+        let b = 2;
+
+        let sum;
+
+        try {
+          sum = a + b * x;
+          console.log(sum);
+          return true;
+        } catch (e) {
+          console.log("Error Occurred");
+          return false;
+        } finally {
+          console.log("Program Ended"); // it will run even if code has success or error
+        }
+      }
+
+      main();
+    </script>
+  </body>
+</html>
